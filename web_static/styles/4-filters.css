@@ -25,6 +25,6 @@
     transition: opacity 0.2s;
 }
 
-.search_btn :hover {
+.search_btn:hover {
     opacity: 0.9;
 }
