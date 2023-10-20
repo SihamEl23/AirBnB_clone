@@ -9,8 +9,8 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: 40px;
+    width: 140px;
+    height: 60px;
     background-image: url("../images/logo.png");
     background-size: cover;
     margin-left: 20px;
