@@ -1,0 +1,36 @@
+.places > h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid  #FF5A5F;
+    border-radius: 4px;
+}
+
+article > h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.places_list {
+    text-align: center;
+}
+
+.places_list article {
+    display: inline-block;
+    margin-right: 10px; 
+    padding: 0px;
+}
+
+.places_list article:last-child {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}

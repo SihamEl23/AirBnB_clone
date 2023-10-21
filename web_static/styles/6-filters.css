@@ -98,4 +98,5 @@ ul li:last-child {
 .locations:hover ul.popover,
 .amenities:hover ul.popover {
     display: block;
+    background-color: white;
 }
