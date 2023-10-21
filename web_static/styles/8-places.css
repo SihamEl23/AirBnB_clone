@@ -1,0 +1,117 @@
+.places {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.places > h1 {
+	height: 0;
+	flex-basis: 100%;
+	padding-bottom: 20px;
+    margin-bottom: 20px;
+	font-size: 30px;
+	text-align: left;
+}
+
+.places_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+	width: 390px;
+	display: flex;
+	flex-flow: wrap;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
+	justify-content: left;
+	align-content: flex-start;
+}
+
+article h2 {
+	flex: 0 0 auto;
+	margin-top: 10px;
+	margin-inline: auto;
+	padding-left: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.price_by_night {
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateX(380%);
+    top: 38%;
+    padding: 5px;
+    z-index: -1;
+}
+
+article:nth-child(3) .price_by_night {
+    transform: translateX(160%);
+    top: 104%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+}
+
+.information {
+	height: 80px;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+article:nth-child(3) .information {
+    margin-top: 35px !important;
+}
+
+.max_guest {
+	background: url(../images/icon_group.png) center center no-repeat;
+	width: 100px;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.number_rooms {
+	background: url(../images/icon_bed.png) center center no-repeat;
+	width: 100px;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.number_bathrooms {
+	background: url(../images/icon_bath.png) center center no-repeat;
+	width: 100px;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.user {
+	margin-top: 20px;
+	margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: left !important;
+}
+
+.description p {
+    text-align: justify;
+    padding: 0px 20px 20px 20px ;
+}
